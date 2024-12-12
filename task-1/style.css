@@ -1,0 +1,76 @@
+/* css reset */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* end css reset */
+
+.content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#app #panel {
+    display: flex;
+    gap: 5px;
+}
+
+#app #time-input {
+    min-width: 210px;
+    padding: 5px;
+}
+
+#app #add-timer {
+    padding: 5px;
+}
+
+#timers .timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    font-size: 3rem;
+    border-radius: 15px;
+}
+
+#timers .timer span {
+    margin: 0 auto;
+}
+
+#timers .timer button {
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+}
+
+#timers .timer button:hover {
+    transition: 0.2s;
+    background-color: darkred;
+}
