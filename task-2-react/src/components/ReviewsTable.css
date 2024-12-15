@@ -1,0 +1,34 @@
+.reviews-table-container {
+    margin: 20px;
+}
+
+.reviews-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.reviews-table th,
+.reviews-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.reviews-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.reviews-table td {
+    color: #333;
+}
+
+.reviews-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.reviews-table tr:hover {
+    background-color: #f1f1f1;
+}

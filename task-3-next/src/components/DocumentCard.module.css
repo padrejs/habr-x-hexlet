@@ -1,0 +1,16 @@
+.document {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+    cursor: grab;
+}
+
+.document:active {
+    cursor: grabbing;
+}
+
+.document:hover {
+    background: #f0f8ff;
+}

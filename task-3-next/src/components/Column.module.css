@@ -1,0 +1,21 @@
+.column {
+    flex: 1;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.column-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.no-documents {
+    text-align: center;
+    color: #999;
+}

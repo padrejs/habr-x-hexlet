@@ -1,0 +1,36 @@
+.board-container {
+    padding: 16px;
+}
+
+.add-document-container {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+}
+
+.button {
+    padding: 8px 16px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+.columns {
+    display: flex;
+    gap: 16px;
+}
