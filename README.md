@@ -9,6 +9,7 @@
 
 ```
 git clone https://github.com/padrejs/habr-x-hexlet.git
-cd task-3-next
+cd habr-x-hexlet && cd task-3-next
+npm install
 npm run build && npm run start
 ``` 

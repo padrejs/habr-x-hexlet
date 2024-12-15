@@ -12,7 +12,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
    ```bash
    git clone https://github.com/padrejs/habr-x-hexlet.git
-   cd task-3-next
+   cd habr-x-hexlet && cd task-3-next
    ```
    
 2. Установите зависимости:
