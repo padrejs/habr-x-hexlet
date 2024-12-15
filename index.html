@@ -2,10 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello!</title>
+    <title>Оглавление</title>
+    <style>
+        /* css reset */
+        html {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+        body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* end css reset */
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+            'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+            sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            display: flex;
+            padding: 30px;
+            line-height: 1.5rem;
+        }
+
+        .content h1, h2, h3 {
+            margin: 1rem 0;
+        }
+    </style>
 </head>
 <body>
-Этот проект можно посмотреть на GitHub Pages.
-По адресу: [padrejs.github.io/habr-x-hexlet/task-1](https://padrejs.github.io/habr-x-hexlet/task-1/)
+
+<div class="container">
+    <div class="content">
+        <h1>Первое задание</h1>
+        <p> Доступно по адресу:
+            <a href="https://padrejs.github.io/habr-x-hexlet/task-1/">Task 1</a>
+        </p>
+        <h1>Второе задание</h1>
+        <p> Скомпилированный проект доступен по адресу:
+            <a href="https://padrejs.github.io/habr-x-hexlet/task-2-react/build/">Task 2</a>
+        </p>
+        <p> Исходный доступен по адресу:
+            <a href="https://padrejs.github.io/habr-x-hexlet/task-2-react/">Исходный код</a>
+        </p>
+        <h1>Третье задание</h1>
+        <p> Исходный доступен по адресу:
+            <a href="https://padrejs.github.io/habr-x-hexlet/task-3-next/">Исходный код</a>
+        </p>
+    </div>
+</div>
+
 </body>
 </html>

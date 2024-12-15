@@ -18,7 +18,7 @@ const ReviewsTable = () => {
 
     const sortedReviews = [...filteredReviews].sort((a, b) => {
         if (!sorting || !sorting.field || !sorting.order) {
-            return 0; // Если sorting не задан, возвращаем изначальный порядок
+            return 0;
         }
         if (sorting.field === 'date') {
             return sorting.order === 'asc'

@@ -5,8 +5,8 @@ const initialState = {
         ratingRange: [0, 5],
     },
     sorting: {
-        field: 'date', // или 'rating'
-        order: 'desc', // 'asc' или 'desc'
+        field: 'date',
+        order: 'desc',
     },
 };
 

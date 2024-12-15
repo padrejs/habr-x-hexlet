@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useDispatch } from 'react-redux';
+import React, {useState} from 'react';
+import {useDispatch} from 'react-redux';
 import './Filters.css';
 
 const Filters = () => {
@@ -11,12 +11,12 @@ const Filters = () => {
     const handlePlatformChange = (e) => {
         const value = e.target.value;
         setPlatform(value);
-        dispatch({ type: 'SET_PLATFORM_FILTER', payload: value });
+        dispatch({type: 'SET_PLATFORM_FILTER', payload: value});
     };
 
     const handleRatingChange = () => {
         const range = [minRating, maxRating];
-        dispatch({ type: 'SET_RATING_FILTER', payload: range });
+        dispatch({type: 'SET_RATING_FILTER', payload: range});
     };
 
     return (
@@ -53,7 +53,8 @@ const Filters = () => {
                 />
             </div>
         </div>
-    );
+    )
+        ;
 };
 
 export default Filters;

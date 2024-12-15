@@ -13,11 +13,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
    ```bash
    git clone https://github.com/padrejs/habr-x-hexlet.git
    cd task-3-next
+   ```
    
 2. Установите зависимости:
 
     ```bash
     npm install
+   ```
 
 3. Для запуска в режиме разработки используйте команду:
  
@@ -31,6 +33,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
     ```bash
     npm run build
     npm run start
+   ```
 
 ## Структура проекта
 
